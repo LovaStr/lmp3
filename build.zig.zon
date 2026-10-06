@@ -1,0 +1,21 @@
+.{
+    .name = .lmp3,
+    .version = "0.1.0",
+    .fingerprint = 0x8054d73422d87350,
+    .minimum_zig_version = "0.14.1",
+
+    // Capy is added by running (once, in this folder):
+    //
+    //     zig fetch --save git+https://github.com/capy-ui/capy
+    //
+    // which fills in the `.dependencies` table below.
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "vendor",
+        "README.md",
+    },
+}
